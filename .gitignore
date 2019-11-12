@@ -12,3 +12,6 @@
 *.out
 
 .idea/
+
+blockchain.db
+wallet.dat
