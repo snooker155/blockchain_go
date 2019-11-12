@@ -198,7 +198,6 @@ func (bc *Blockchain) VerifyTransaction(tx *Transaction) bool {
 		prevTXs[hex.EncodeToString(prevTX.ID)] = prevTX
 	}
 
-	fmt.Println(prevTXs)
 	return tx.Verify(prevTXs)
 }
 
