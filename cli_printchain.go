@@ -7,7 +7,7 @@ import (
 
 func (cli *CLI) printChain() {
 	// TODO: Fix this
-	bc := NewBlockchain("")
+	bc := NewBlockchain()
 	defer bc.db.Close()
 
 	bci := bc.Iterator()

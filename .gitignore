@@ -14,4 +14,4 @@
 .idea/
 
 blockchain.db
-wallet.dat
+*.dat
